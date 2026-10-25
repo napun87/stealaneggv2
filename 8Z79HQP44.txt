@@ -324,8 +324,8 @@ do
             local img = Instance.new("ImageLabel")
             img.BackgroundTransparency = 1
             img.Image = logo
-            img.Size = UDim2.new(0, 38, 0, 38)
-            img.Position = UDim2.new(0, -48, 0.5, -19)
+            img.Size = UDim2.new(0, 38, 9, 38)
+            img.Position = UDim2.new(0, 38, 0.5, -19)
             img.Parent = b
         end
         return b
@@ -3953,8 +3953,8 @@ local function createDynamicIslandUI()
     SubLabel.Parent = AutoFarmCard
 
     -- Hàng 3: THẺ TIKTOK (logo Kai Roblox + tên kênh + nút sao chép link)
-    local TIKTOK_HANDLE = "@kai.roblox7"
-    local TIKTOK_URL = "https://www.tiktok.com/" .. TIKTOK_HANDLE
+    local TIKTOK_HANDLE = "@uminimeme"
+    local TIKTOK_URL = "https://www.tiktok.m/" .. TIKTOK_HANDLE
 
     local TikTokCard = Instance.new("Frame")
     TikTokCard.Name = "TikTokCard"
@@ -3985,7 +3985,7 @@ local function createDynamicIslandUI()
     TikTokStrokeGrad.Parent = TikTokStroke
 
     -- Logo Kai Roblox (dạng tròn); nếu executor không nạp được ảnh thì dùng biểu tượng ♪
-    local kaiLogo = getLogo("kai")
+    local kaiLogo = getLogo("umi")
     local LogoHolder = Instance.new("Frame")
     LogoHolder.Size = UDim2.new(0, 34, 0, 34)
     LogoHolder.Position = UDim2.new(0, 7, 0.5, -17)
@@ -4003,7 +4003,7 @@ local function createDynamicIslandUI()
         local img = Instance.new("ImageLabel")
         img.Size = UDim2.new(1, 0, 1, 0)
         img.BackgroundTransparency = 1
-        img.Image = kaiLogo
+        img.Image = umiiLogo
         img.ScaleType = Enum.ScaleType.Crop
         img.Parent = LogoHolder
         local imgCorner = Instance.new("UICorner")
@@ -4036,7 +4036,7 @@ local function createDynamicIslandUI()
     TikTokLabel.Size = UDim2.new(1, -150, 0, 16)
     TikTokLabel.Position = UDim2.new(0, 50, 0, 20)
     TikTokLabel.BackgroundTransparency = 1
-    TikTokLabel.Text = "Kai Roblox"
+    TikTokLabel.Text = "Umine Roblox"
     TikTokLabel.Font = Enum.Font.GothamBlack
     TikTokLabel.TextSize = 13
     TikTokLabel.TextColor3 = Color3.fromRGB(255, 255, 255)

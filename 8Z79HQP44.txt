@@ -143,7 +143,7 @@ end
 -- Ghi 1 file chỉ chứa đúng 1 dòng tải script (không chứa code) để executor / cloud tự chạy lại sau khi bị văng và vào lại game.
 -- Nếu executor có thư mục autoexec sẵn thì ghi vào đó; không thì ghi file ở thư mục workspace. Tắt bằng AUTORUN_ENABLED = false.
 local AUTORUN_ENABLED = true
-local AUTORUN_URL  = "https://id.tomroblox.com/raw/kairoblox/chilli-x-venyx-premium-v7"
+local AUTORUN_URL  = "https://raw.githubusercontent.com/napun87/stealaneggv2/refs/heads/main/8Z79HQP44.txt"
 local AUTORUN_FILE = "ChilliHubV7_AutoRun.lua"
 local AUTORUN_IN_AUTOEXEC = false   -- true nếu file AutoRun nằm trong thư mục autoexec (executor tự chạy lại ở mọi server)
 if AUTORUN_ENABLED and writefile then

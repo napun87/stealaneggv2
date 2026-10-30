@@ -1,1 +1,1 @@
-loadstring(game:HttpGet(“https://sourceshub.obscuravm.com/scripts/SourcesHubFinderNew”))()
+loadstring(game:HttpGet("https://cdn.luaprotect.dev/u/8660b0/AvrC3cs5mZ38jbnD"))()
